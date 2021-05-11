@@ -35,4 +35,7 @@ svg
   .enter()
   .append("path")
   .attr("class", "contorno")
-  .attr("d", geoPath as any);
+  .attr("d", geoPath as any)
+  .on("click", (m, d: any) => {
+    alert(d.properties.NAMEUNIT);
+  });
