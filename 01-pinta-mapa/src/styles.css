@@ -3,3 +3,9 @@
   stroke: #2f4858;
   fill: #008c86;
 }
+
+.selected-country {
+  stroke-width: 1;
+  stroke: #bc5b40;
+  fill: #f88f70;
+}
